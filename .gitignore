@@ -1,3 +1,3 @@
 # IntelliJ configuration
-.idea/
-maia-moa-dataset-nodes.iml
+.gradle/
+build/
