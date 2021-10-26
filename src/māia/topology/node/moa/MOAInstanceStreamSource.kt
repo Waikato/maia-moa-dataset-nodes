@@ -46,7 +46,7 @@ class MOAInstanceStreamSource : Node<MOAInstanceStreamSourceConfiguration> {
 
     override suspend fun main() {
         for (index in 0 until configuration.numIterations) {
-            streams.push(materalizeMOAClass(InstanceStream::class.java, configuration.config))
+            streams.push(materalizeMOAClass(configuration.config))
         }
     }
 
