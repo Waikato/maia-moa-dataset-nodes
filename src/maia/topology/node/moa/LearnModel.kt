@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with MĀIA.  If not, see <https://www.gnu.org/licenses/>.
  */
-package māia.topology.node.moa
+package maia.topology.node.moa
 
 import com.yahoo.labs.samoa.instances.Instance
 import moa.classifiers.MultiClassClassifier
@@ -26,10 +26,10 @@ import moa.learners.Learner
 import moa.options.ClassOption
 import moa.streams.InstanceStream
 import moa.tasks.NullMonitor
-import māia.configure.Configurable
-import māia.configure.ConfigurationItem
-import māia.topology.NodeConfiguration
-import māia.topology.node.base.LockStepTransformer
+import maia.configure.Configurable
+import maia.configure.ConfigurationItem
+import maia.topology.NodeConfiguration
+import maia.topology.node.base.LockStepTransformer
 
 /**
  * TODO: What class does.

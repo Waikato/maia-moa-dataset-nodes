@@ -17,15 +17,15 @@
  * You should have received a copy of the GNU General Public License
  * along with MĀIA.  If not, see <https://www.gnu.org/licenses/>.
  */
-package māia.topology.node.moa
+package maia.topology.node.moa
 
 import moa.streams.InstanceStream
-import māia.configure.Configurable
-import māia.ml.dataset.DataRow
-import māia.ml.dataset.DataStream
-import māia.ml.dataset.moa.MOADataStream
-import māia.topology.NodeConfiguration
-import māia.topology.node.base.LockStepTransformer
+import maia.configure.Configurable
+import maia.ml.dataset.DataRow
+import maia.ml.dataset.DataStream
+import maia.ml.dataset.moa.MOADataStream
+import maia.topology.NodeConfiguration
+import maia.topology.node.base.LockStepTransformer
 
 /**
  * TODO: What class does.

@@ -17,16 +17,16 @@
  * You should have received a copy of the GNU General Public License
  * along with MĀIA.  If not, see <https://www.gnu.org/licenses/>.
  */
-package māia.topology.node.moa
+package maia.topology.node.moa
 
 import moa.streams.InstanceStream
-import māia.configure.Configurable
-import māia.configure.ConfigurationItem
-import māia.configure.asReconfigureBlock
-import māia.ml.dataset.moa.materalizeMOAClass
-import māia.topology.Node
-import māia.topology.NodeConfiguration
-import māia.topology.io.Output
+import maia.configure.Configurable
+import maia.configure.ConfigurationItem
+import maia.configure.asReconfigureBlock
+import maia.ml.dataset.moa.materalizeMOAClass
+import maia.topology.Node
+import maia.topology.NodeConfiguration
+import maia.topology.io.Output
 
 /**
  * TODO

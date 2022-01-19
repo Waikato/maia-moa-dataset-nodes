@@ -17,13 +17,13 @@
  * You should have received a copy of the GNU General Public License
  * along with MĀIA.  If not, see <https://www.gnu.org/licenses/>.
  */
-package māia.topology.node.moa
+package maia.topology.node.moa
 
 import moa.learners.Learner
-import māia.configure.Configurable
-import māia.topology.Node
-import māia.topology.NodeConfiguration
-import māia.topology.io.Input
+import maia.configure.Configurable
+import maia.topology.Node
+import maia.topology.NodeConfiguration
+import maia.topology.io.Input
 import java.lang.StringBuilder
 
 /**
